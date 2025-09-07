@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container professional">
+    <h2 class="form-title modern-title">Modern Registration Form</h2>
+  </div>
+ 
+  <div class="container student">
+    <h2 class="form-title student-title">Student Registration Form</h2>
+    <form class="student-form">
+
+      <div class="row">
+        <div class="input-box">
+          <label>First Name</label>
+          <input type="text" placeholder="Enter first name">
+        </div>
+        <div class="input-box">
+          <label>Last Name</label>
+          <input type="text" placeholder="Enter last name">
+        </div>
+      </div>
+
+      <div class="row">
+  <div class="input-box dob">
+          <label>Date of Birth</label>
+          <select><option>Day</option></select>
+          <select><option>Month</option></select>
+          <select><option>Year</option></select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-box">
+          <label>Email ID</label>
+          <input type="email" placeholder="Enter email address" required>
+        </div>
+        <div class="input-box">
+          <label>Mobile Number</label>
+          <input type="tel" placeholder="Enter 10-digit mobile number" required>
+        </div>
+      </div>
+
+      <div class="roww">
+        <label>Gender</label><br><br>
+        <div class="radio-group">
+          <input type="radio" name="gender"> Male
+          <input type="radio" name="gender"> Female
+        </div>
+      </div><br>
+
+      <div class="row">
+        <div class="input-box full">
+          <label>Address</label>
+          <textarea cols="95" rows="5" placeholder="Enter your full address"></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-box">
+          <label>City</label>
+          <input type="text" placeholder="Enter city">
+        </div>
+        <div class="input-box">
+          <label>PIN Code</label>
+          <input type="text" placeholder="Enter 6-digit PIN code">
+        </div>
+        <div class="input-box">
+          <label>State</label>
+          <input type="text" placeholder="Enter state">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-box full">
+          <label>Country</label>
+          <select>
+            <option>Select country</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="roww">
+        <label>Hobbies</label><br>
+        <div class="checkbox-group-1">
+          <label><input type="checkbox"> Drawing</label>
+          <label><input type="checkbox"> Singing</label>
+          <label><input type="checkbox"> Dancing</label>
+          </div>
+          <div class="checkbox-group-2">
+          <label><input type="checkbox"> Sketching</label>
+          <label><input type="checkbox"> Others</label>
+        </div>
+      </div>
+
+      <h3>Qualification</h3>
+      <div class="Qualification">
+      <table>
+        <tr>
+          <th>Sr. No.</th>
+          <th>Examination</th>
+          <th>Board</th>
+          <th>Percentage</th>
+          <th>Year of Passing</th>
+        </tr>
+        <tr>
+          <td>1</td><td>Class X</td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+          <td>2</td><td>Class XII</td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+          <td>3</td><td>Graduation</td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+          <td>4</td><td>Masters</td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+        </tr>
+      </table>
+      </div>
+
+      <div class="roww">
+        <label>Courses Applied For</label><br><br>
+        <div class="radio-group">
+          <input type="radio" name="course"> BCA
+          <input type="radio" name="course"> B.Com
+          <input type="radio" name="course"> B.Sc
+          <input type="radio" name="course"> B.A
+        </div>
+      </div><br>
+      <hr>
+
+      <div class="btn-group">
+        <button type="reset" class="reset-btn">Reset</button>
+        <button type="submit" class="submit-btn">Submit</button>
+      </div>
+
+    </form>
+  </div>
+
+
+  <div class="container professional">
+    <h2 class="form-title professional-title">Professional Registration Form</h2>
+  </div>
+
+</body>
+</html>
